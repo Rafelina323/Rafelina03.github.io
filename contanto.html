@@ -33,20 +33,131 @@
 
         <h1><span style="color:rgb(45, 197, 164)">AMOR EN POSTRE</span></h1>
         
-        <h2><span style="color:rgb(192, 85, 241)"> Ingrsa aqui tus datos para mas informacion llamar</span></h2>
-        <h3> <span style="color: rgb(156, 94, 180);">  </span></h3>
-        <h2><span style="color: rgb(20, 19, 20)"> Tel 809-298-2429 </span></h2>
-<form>
-<label for="nombre" colo> Nombre</label>
-<input type="text" id="nombre" name="nombre" placeholder="Tu nombre es..."/> 
-<label for="Número de teléfono">Número de teléfono</label>
-<input type="text" id="Número de teléfono" name="Número teléfono" placeholder="Tu número es..."/>
-<label for="gmail">Gmail</label>
-<input type="text" id="gmail" name="Gmail" placeholder="Tu gmail aquí"/>
-</form>
-</center>
-<br>
-<img src="https://logos-world.net/wp-content/uploads/2020/04/Instagram-icon-Logo-2016-present.png" width="100" alt="100">
-<img src="https://www.pnguniverse.com/wp-content/uploads/2021/03/Facebook-logo-circular.png" width="70" alt="70"
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contáctanos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff8f0;
+      color: #333;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      border-radius: 2rem;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 2rem;
+    }
+
+    h2 {
+      text-align: center;
+      color: #6bdcf5;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid #ddd;
+      border-radius: 1rem;
+      font-size: 1rem;
+    }
+
+    .socials, .info {
+      margin-top: 2rem;
+    }
+
+    .socials a {
+      text-decoration: none;
+      color: #65dcf1;
+      margin-right: 1rem;
+      font-weight: bold;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background: #7dd8ff;
+      color: white;
+      padding: 0.75rem 2rem;
+      border: none;
+      border-radius: 2rem;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contact-btn:hover {
+      background: #ff4e63;
+    }
+
+    .office-info {
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-container">
+    <h2>💌 Contáctanos</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" placeholder="Tu nombre">
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" placeholder="ejemplo@correo.com">
+      </div>
+      <div class="form-group">
+        <label for="reason">Recomendaciones</label>
+        <select id="reason">
+          <option value="idea">Idea creativa</option>
+          <option value="proyecto">Buenas fotos que hacen que todo se vea delicioso.</option>
+          <option value="colaboracion">No hay opciones para personas con restricciones alimentarias.</option>
+          <option value="otro">Navegación sencilla e intuitiva</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea id="message" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+      </div>
+      <button type="submit" class="contact-btn">¡Hablemos ahora!</button>
+    </form>
+
+    <div class="info">
+      <p><strong>📬 Correo:</strong> amorenpostre@.com</p>
+      <p class="office-info">🌍 Santiago de los caballeros las palomas <br> 🗓️ Lunes a Viernes - 10:00am 11:00pm</p>
+    </div>
+
+    <div class="socials">
+      <p><strong>🌐 Redes Sociales:</strong></p>
+      <a href="https://www.instagram.com/?utm_source=pwa_homescreen&__pwa=1">Instagram</a>
+      <a href="https://www.facebook.com/">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+  </div>
 </body>
 </html>
